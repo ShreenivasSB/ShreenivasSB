@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Shreenivas+%F0%9F%91%8B;Data+Analyst+%7C+MCA+Data+Science;Turning+Data+into+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Shreenivas+%F0%9F%91%8B;Data+Analyst+%7C+Python+%C2%B7+SQL+%C2%B7+Power+BI;Turning+Raw+Data+into+Business+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <b>Data Analyst · MCA Data Science · Bangalore, India 🇮🇳</b><br/>
-  <i>I turn raw, messy data into clear, actionable business insights.</i>
+  <i>End-to-end analytics — from messy raw data to dashboards that drive real business decisions.</i>
 </p>
 
 <p align="center">
@@ -21,14 +21,14 @@
 
 ## 🧭 About Me
 
-I'm **Shreenivas**, a Data Science postgraduate (MCA) at Dayananda Sagar University, Bangalore (2024–2026), actively seeking **Data Analyst / BI Analyst** roles — both internships and full-time positions.
+I'm **Shreenivas**, a final-year MCA Data Science student at Dayananda Sagar University, Bangalore (graduating June 2026), actively seeking **Data Analyst / BI Analyst** roles — internships and full-time.
 
-My focus: taking complex datasets and building **end-to-end analytics pipelines** that drive real decisions — from cleaning and exploration to dashboards and predictive models.
+I build **end-to-end analytics systems**: raw data → Python cleaning & EDA → MySQL relational schema → SQL business queries → Power BI dashboards → actionable insight. Every project is grounded in real business questions, not just model accuracy.
 
-- 📊 Core strengths: **EDA, SQL querying, data visualization, business intelligence**
-- 🤖 Building ML-powered analytics projects with **SHAP explainability** for business stakeholders
-- 🧠 Currently sharpening: **Power BI dashboards, SQL optimization, and AI integration in analytics**
-- 🎯 Goal: Land a role where data directly impacts **product, revenue, or operations decisions**
+- 📊 **Core strengths:** EDA, SQL analytics, Power BI dashboarding, RFM segmentation, cohort analysis, business KPI design
+- 🗄️ **Data engineering:** Star schema design, SQLAlchemy ingestion pipelines, window functions, CTEs
+- 📈 **Statistical validation:** Chi-Square tests, T-tests, p-value interpretation for business decisions
+- 🎯 **Goal:** A role where my analysis directly influences product, revenue, or operations strategy
 
 ---
 
@@ -39,19 +39,22 @@ My focus: taking complex datasets and building **end-to-end analytics pipelines*
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-**Analytics & ML Libraries**
+**Analytics Libraries**
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
 
 **BI & Dashboarding**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+**Data Infrastructure**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-CC2927?style=flat-square&logo=python&logoColor=white)
 
 **Dev Tools**
 
@@ -64,41 +67,36 @@ My focus: taking complex datasets and building **end-to-end analytics pipelines*
 
 ## 🚀 Featured Projects
 
-### 🛒 [Customer Behavior Intelligence & Revenue Optimization System](https://github.com/ShreenivasSB)
-> **E-Commerce Analytics | End-to-End Project** *(In Progress)*
+### 🛒 [Customer Revenue Intelligence & Retention Analytics System](https://github.com/ShreenivasSB/customer-revenue-intelligence)
+> **E-Commerce Analytics | Python · MySQL · Power BI · NovyPro**
 
-An advanced analytics system that uncovers customer purchase patterns and identifies revenue leakage points for e-commerce businesses.
+Full-stack analytics system built on 779,407 cleaned transaction records (UCI Online Retail II dataset) to uncover customer revenue patterns and retention risk for an e-commerce business.
 
-- Customer segmentation using **RFM analysis** (Recency, Frequency, Monetary)
-- Cohort analysis to track **customer retention over time**
-- Revenue funnel analysis to identify **drop-off and upsell opportunities**
-- Interactive **Streamlit dashboard** for business decision-makers
-- **Stack:** Python · SQL · Pandas · Matplotlib · Seaborn · Streamlit
+**What the analysis found:**
+- 🏆 Top 2 RFM segments (Champions + Loyal) = **32% of customers driving 80.23% of revenue**
+- ⚠️ **223 At-Risk customers** carry £982,122 in historical revenue — a quantified retention opportunity
+- 📉 **79% of customers never return** after their first purchase — identified via cohort retention analysis
+- 💰 Total customer revenue: **£17,374,804.25** | Guest checkout: **£3,229,538.96** (separate revenue stream analysis)
 
----
-
-### 🌫️ [Air Quality Health Risk Prediction System](https://github.com/ShreenivasSB/air-quality-health-risk)
-> **ML + Analytics | Public Health Domain**
-
-End-to-end system that predicts personal health risk from real-time AQI data with explainable AI.
-
-- Random Forest model with **SHAP explainability** for transparent predictions
-- Auto-detects user location via IP for **personalized risk scoring**
-- WHO AQI benchmark reference lines for contextual grounding
-- Downloadable health report generated via Streamlit
-- **Stack:** Python · scikit-learn · SHAP · Streamlit
+**Technical depth:**
+- MySQL star schema (5 tables) with SQLAlchemy ingestion pipeline
+- 20 SQL queries across 4 files — CTEs, window functions, LAG, RANK, NTILE
+- Statistical validation: Chi-Square & T-tests with p-values
+- 4-page Power BI dashboard published on NovyPro
 
 ---
 
-### 📉 [Telecom Customer Churn Prediction & Retention System](https://github.com/ShreenivasSB/telco-customer-churn-retention-system)
-> **Predictive Analytics | Business Intelligence**
+### 🏦 [BFSI Loan Risk & Portfolio Analytics System](https://github.com/ShreenivasSB)
+> **Banking & Financial Services Analytics | Python · MySQL · Power BI**
 
-Predicts at-risk customers and recommends targeted retention actions for telecom stakeholders.
+End-to-end risk analytics system built on ~1.1 million Lending Club loan records, designed to support credit risk and portfolio health decisions for BFSI stakeholders.
 
-- Full pipeline: **EDA → Feature Engineering → Model Training → Deployment**
-- SHAP-based explanations designed for **non-technical business audiences**
-- Deployed as an interactive Streamlit web app
-- **Stack:** Python · scikit-learn · SHAP · Streamlit · Pandas
+- Loan default segmentation and risk-tier classification across borrower profiles
+- Portfolio concentration analysis by grade, term, and purpose
+- MySQL star schema with full SQLAlchemy ingestion pipeline
+- SQL analytics library: CTEs, window functions, risk ranking queries
+- Power BI dashboard with loan health KPIs and risk distribution visuals
+- **Stack:** Python · Pandas · NumPy · MySQL · SQLAlchemy · Power BI · NovyPro
 
 ---
 
@@ -115,33 +113,30 @@ Predicts at-risk customers and recommends targeted retention actions for telecom
 
 ---
 
-## 🎯 Currently Working On
+## 🎯 Currently
 
-- 🔄 **Customer Behavior Intelligence & Revenue Optimization System** — E-Commerce analytics project *(active)*
-- 📊 **SQL + Power BI** analytics dashboard *(upcoming)*
-- 📚 Deepening expertise in **advanced SQL, Power BI, and AI-integrated analytics**
-- 🧪 Preparing a strong portfolio for **Data Analyst** internship and fresher roles
+- 📤 **Actively applying** to Data Analyst / BI Analyst roles in Bangalore and remote India
+- 📚 Completing **Google Data Analytics Professional Certificate** (Coursera)
+- 🎓 Final semester, MCA Data Science — graduating June 2026
 
 ---
 
-## 💼 What I'm Looking For
-
-I'm open to and actively applying for:
+## 💼 Open To
 
 | Role | Type |
 |------|------|
 | Data Analyst | Internship / Full-Time |
 | Business Intelligence Analyst | Internship / Full-Time |
-| Analytics Engineer | Internship |
 | Junior Data Analyst | Full-Time (Fresher) |
+| Analytics Associate | Full-Time |
 
-📍 **Location:** Bangalore (Open to Remote/Hybrid)
+📍 **Location:** Bangalore (Open to Remote / Hybrid)
 📧 **Contact:** shreenivas467@gmail.com
 🔗 **LinkedIn:** [shreenivas-s-b](https://www.linkedin.com/in/shreenivas-s-b-22b48a31a/)
 
 ---
 
 <p align="center">
-  <i>"Data is not just numbers — it's the story of what happened and the map to what should happen next."</i><br/><br/>
-  ⭐ <b>If any of my projects helped you, consider starring the repo!</b>
+  <i>"Good analysis doesn't just describe what happened — it tells you what to do next."</i><br/><br/>
+  ⭐ <b>If any of my projects helped you, a star on the repo means a lot!</b>
 </p>
